@@ -8,6 +8,7 @@ import productRoutes from "./routes/productRoutes.js";
 import color from "colors";
 import cors from "cors";
 import path from "path";
+import {fileURLToPath} from "url";
 
 // REST OBJECT
 const app = express();
@@ -16,6 +17,10 @@ dotenv.config();
 
 //CONFIGURE DATABSE
 connectDB();
+
+#esmodeulefix 
+const __filename = fileURLToPath(import.meta.url); I
+const __dirname = path.dirname(__filename);
 
 //MIDDLEWARES
 app.use(cors());
