@@ -18,7 +18,7 @@ dotenv.config();
 //CONFIGURE DATABSE
 connectDB();
 
-#esmodeulefix 
+//esmodeulefix 
 const __filename = fileURLToPath(import.meta.url); I
 const __dirname = path.dirname(__filename);
 
